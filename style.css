@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+p{
+    /* font-family: 'Caveat', cursive; */
+    font-size: 30px;
+}
+.position{
+    position: relative;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    text-align: center !important;
+    margin-top: 50px;
+}
+
+.btnn {
+    width: 250px;
+    height: 80px;
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(197, 17, 17),rgb(24, 24, 200));
+    /* margin-left: 42%; */
+    color: aliceblue;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+.d-btn{
+    
+    display: flex;
+    justify-content: center;
+}
+.btnn:hover{
+    background: linear-gradient(to right, rgb(15, 15, 84),rgb(113, 26, 26));
+    color: aliceblue;
+    cursor:default;
+    
+}
+.text-color{
+    font-family: 'Dancing Script', cursive;
+    
+}
